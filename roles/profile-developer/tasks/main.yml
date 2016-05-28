@@ -6,17 +6,54 @@
 - name: install developer brew applications
   homebrew: name={{item}} state=latest
   with_items:
+    - git
+    - git-extras
+    - git-flow
     - wget
     - pwgen
-    - xmlstarlet
-    - htop
+    - siege
     - watch
     - rsync
+    - rbenv
+    - ruby-build
+    - rbenv-gemset
+#    - rbenv-gem-rehash
+    - nvm
+    - imagemagick
+    - postgresql
+    - mongodb
+    - v8
+    - qt
 
 - name: install developer cask applications
   homebrew_cask: name={{item}} state=present
   with_items:
-    - phpstorm
-    - webstorm
-    - sequel-pro
+    - rubymine
+    - intellij
+    - sourcetree
+    - imageoptim
+    - imagealpha
+    - vlc
     - java
+    - skype
+    - spotify
+    - istat-menus
+    - spectacle
+    - karabiner
+    - dash
+    - flux
+    - launchbar
+    - sketch
+    - handbrake
+    - utorrent
+    - adobe-creative-cloud
+    - microsoft-office
+    - dropbox
+    - sourcetree
+    - slack
+    - lastpass
+    - virtualbox
+    - google-drive
+    - github-desktop
+    - filezilla
+    - robomongo
