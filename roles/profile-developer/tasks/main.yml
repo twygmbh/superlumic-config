@@ -17,7 +17,6 @@
     - rbenv
     - ruby-build
     - rbenv-gemset
-#    - rbenv-gem-rehash
     - nvm
     - imagemagick
     - postgresql
@@ -29,7 +28,7 @@
   homebrew_cask: name={{item}} state=present
   with_items:
     - rubymine
-    - intellij
+    - intellij-idea
     - sourcetree
     - imageoptim
     - imagealpha
