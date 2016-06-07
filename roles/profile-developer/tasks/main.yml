@@ -28,6 +28,8 @@
   homebrew_cask: name={{item}} state=present
   with_items:
     - rubymine
+    - atom
+    - visual-studio-code
     - intellij-idea
     - sourcetree
     - imageoptim
