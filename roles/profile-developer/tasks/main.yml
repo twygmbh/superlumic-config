@@ -23,6 +23,7 @@
     - mongodb
     - v8
     - qt
+    - lastpass-cli --with-pinentry
 
 - name: install developer cask applications
   homebrew_cask: name={{item}} state=present
