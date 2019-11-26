@@ -23,13 +23,13 @@
   with_items:
     - rubymine
     - visual-studio-code
-    - brave
+    - brave-browser
     - google-chrome
     - firefox
     - spotify
     - istat-menus
     - spectacle
-    - karabiner
+    - karabiner-elements
     - dash
     - flux
     - alfred
