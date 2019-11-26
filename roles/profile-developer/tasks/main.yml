@@ -15,7 +15,6 @@
     - rbenv-gemset
     - nvm
     - postgresql
-    - mongodb
     - v8
     - kubectl
 
