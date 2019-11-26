@@ -1,6 +1,6 @@
 ---
 galaxy_info:
-  author: Roderik van der Veer
+  author: Reto Ryter
   description: Ansible profile role for developers
   license: MIT
   min_ansible_version: 1.2

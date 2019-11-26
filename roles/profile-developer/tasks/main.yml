@@ -1,7 +1,6 @@
 ---
-
-- name: tap caskroom/versions
-  homebrew_tap: tap=caskroom/versions state=present
+- name: tap homebrew/cask-versions
+  homebrew_tap: tap=homebrew/cask-versions state=present
 
 - name: install developer brew applications
   homebrew: name={{item}} state=latest
@@ -11,31 +10,21 @@
     - git-flow
     - wget
     - pwgen
-    - siege
-    - watch
-    - rsync
     - rbenv
     - ruby-build
     - rbenv-gemset
     - nvm
-    - imagemagick
     - postgresql
     - mongodb
     - v8
-    - qt
+    - kubectl
 
 - name: install developer cask applications
   homebrew_cask: name={{item}} state=present
   with_items:
     - rubymine
-    - atom
     - visual-studio-code
-    - intellij-idea
-    - imageoptim
-    - imagealpha
-    - vlc
-    - java
-    - skype
+    - brave
     - google-chrome
     - firefox
     - spotify
@@ -44,14 +33,11 @@
     - karabiner
     - dash
     - flux
-    - launchbar
+    - alfred
     - sketch
     - handbrake
     - adobe-creative-cloud
     - dropbox
-    - sourcetree
-    - slack
-    - lastpass
-    - google-drive
-    - filezilla
-    - adobe-photoshop-cc
+    - bitwarden
+    - whatsapp
+    - grammarly
